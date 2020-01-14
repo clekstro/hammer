@@ -16,7 +16,7 @@ end
 
 When we want to rate-limit some action, we want to ensure that the number of
 actions permitted is limited within a specified time-period. For example, a
-maximum of five times within on minute. Usually the limit is enforced per-user,
+maximum of five times within one minute. Usually the limit is enforced per-user,
 per-client, or per some other unique-ish value, such as IP address. It's much
 rarer, but not unheard-of, to limit the action globally without taking the
 identity of the user or client into account.
